@@ -1,0 +1,109 @@
+{
+  "title": "Partner Schemes & Strategic Offers",
+  "tagline": "Tailored incentive programmes designed to empower early-stage startups, agency partners, and high-volume merchants.",
+  "description": "Whether you are bootstrapping a new brand, managing 50+ merchant client stores, or looking to maximize annual savings, explore our dedicated schemes below.",
+  "schemes": [
+    {
+      "id": "startup-scheme",
+      "name": "Startup Accelerator Scheme",
+      "tagline": "50% off all Yuvora apps for early-stage Shopify brands",
+      "description": "We know the challenges of scaling an early DTC store. Get 50% off all Yuvora apps for 6 months to help you build momentum and maximize early conversion.",
+      "badge": "For Early Brands",
+      "eligibility": [
+        "Shopify store operational for under 12 months",
+        "Annual gross merchandise value under $150,000",
+        "First-time subscriber to Yuvora apps"
+      ],
+      "benefits": [
+        "50% discount on all app tiers for 6 full months",
+        "Complimentary conversion optimization review",
+        "Direct email priority support queue",
+        "No long-term contracts; cancel anytime"
+      ],
+      "discountRate": "50% Off (6 Months)",
+      "duration": "6 Months",
+      "supportTier": "Priority Email",
+      "ctaText": "Apply for Startup Scheme",
+      "ctaLink": "mailto:schemes@yuvora.com?subject=Startup%20Accelerator%20Application&body=Hello%20Yuvora%2C%0A%0AWe%20would%20like%20to%20apply%20for%20the%20Startup%20Accelerator%20Scheme.%0A%0AStore%20URL%3A%20%0ADate%20Launched%3A%20%0AEstimated%20Annual%20GMV%3A%20%0A",
+      "featured": false
+    },
+    {
+      "id": "agency-partner-scheme",
+      "name": "Agency Partner Scheme",
+      "tagline": "Co-marketing, complimentary staging licenses & 25% revenue share",
+      "description": "Designed for Shopify agencies, freelance designers, and development studios building high-performance e-commerce experiences for their clients.",
+      "badge": "Most Popular",
+      "eligibility": [
+        "Registered Shopify Partner or Agency",
+        "Actively managing at least 3 Shopify client stores",
+        "Willingness to participate in joint case studies"
+      ],
+      "benefits": [
+        "100% free app licenses on unlimited partner dev stores",
+        "25% lifetime recurring revenue share for every client referral",
+        "Dedicated agency Slack connect channel",
+        "Early beta access to new Shopify Functions apps"
+      ],
+      "discountRate": "Free Dev Stores + 25% Rev Share",
+      "duration": "Ongoing / Lifetime",
+      "supportTier": "Dedicated Slack Channel & Partner Manager",
+      "ctaText": "Join Agency Scheme",
+      "ctaLink": "mailto:partners@yuvora.com?subject=Agency%20Partner%20Scheme%20Application&body=Hello%20Yuvora%2C%0A%0AWe%20would%20like%20to%20join%20the%20Agency%20Partner%20Scheme.%0A%0AAgency%20Name%3A%20%0APartner%20ID%20%2F%20Website%3A%20%0ANumber%20of%20Active%20Shopify%20Clients%3A%20%0A",
+      "featured": true
+    },
+    {
+      "id": "annual-plan-discount",
+      "name": "Annual Prepay Scheme",
+      "tagline": "Save 20% on any plan with annual billing + complimentary onboarding",
+      "description": "Commit to annual growth and receive 2 full months free every year, plus a 1-on-1 concierge onboarding and installation session with our core engineering team.",
+      "badge": "Best Value",
+      "eligibility": [
+        "Available to all merchants on any plan",
+        "Billed upfront annually through Shopify App Billing",
+        "Stackable with annual Shopify Plus subscriptions"
+      ],
+      "benefits": [
+        "2 months free every year (equivalent to 20% savings)",
+        "White-glove 1-on-1 onboarding & CSS styling match",
+        "Quarterly health checks & feature optimization reviews",
+        "Guaranteed rate lock for up to 2 years"
+      ],
+      "discountRate": "20% Off (2 Months Free)",
+      "duration": "Annual",
+      "supportTier": "White-Glove VIP Support",
+      "ctaText": "Claim Annual Discount",
+      "ctaLink": "mailto:sales@yuvora.com?subject=Annual%20Plan%20Inquiry&body=Hello%20Yuvora%2C%0A%0AI%20am%20interested%20in%20switching%20to%20the%20Annual%20Prepay%20Scheme%20for%3A%0A%0AApp%20Name%3A%20%0AShopify%20Store%20Domain%3A%20%0A",
+      "featured": false
+    }
+  ],
+  "comparison": [
+    {
+      "schemeId": "startup-scheme",
+      "name": "Startup Accelerator",
+      "discount": "50% off for 6 months",
+      "eligibilitySummary": "< 12 mos old, < $150k GMV",
+      "support": "Priority Email",
+      "coMarketing": "Spotlight Feature",
+      "devStores": "N/A (Merchant Only)"
+    },
+    {
+      "schemeId": "agency-partner-scheme",
+      "name": "Agency Partner",
+      "discount": "Free dev stores + 25% rev share",
+      "eligibilitySummary": "Active Shopify Partner / Agency",
+      "support": "Dedicated Slack + Partner Lead",
+      "coMarketing": "Joint Case Studies & Webinars",
+      "devStores": "Unlimited Free Licenses"
+    },
+    {
+      "schemeId": "annual-plan-discount",
+      "name": "Annual Prepay",
+      "discount": "20% off (2 months free)",
+      "eligibilitySummary": "All merchants",
+      "support": "White-Glove Onboarding",
+      "coMarketing": "Optional Case Study",
+      "devStores": "Production Stores"
+    }
+  ]
+}
+

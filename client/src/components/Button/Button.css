@@ -1,0 +1,124 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  font-family: var(--font-family);
+  font-weight: 600;
+  border-radius: var(--radius-full);
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform var(--transition-fast), opacity var(--transition-fast), background-color var(--transition-fast), border-color var(--transition-fast), color var(--transition-fast), box-shadow var(--transition-fast);
+  user-select: none;
+  white-space: nowrap;
+  min-height: 44px;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: translateY(0) scale(0.98);
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Sizes */
+.btn-sm {
+  font-size: var(--font-size-sm);
+  padding: 8px 18px;
+  min-height: 40px;
+}
+
+.btn-md {
+  font-size: var(--font-size-body);
+  padding: 10px 24px;
+  min-height: 46px;
+}
+
+.btn-lg {
+  font-size: var(--font-size-body-lg);
+  padding: 12px 28px;
+  min-height: 50px;
+}
+
+/* Variants */
+.btn-primary {
+  background-color: var(--color-btn-primary-bg);
+  color: var(--color-btn-primary-text) !important;
+  border: 0;
+  box-shadow: 0 5px 8px oklch(19% 0.018 20 / 0.12);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-btn-primary-hover);
+  color: var(--color-btn-primary-text) !important;
+  box-shadow: 0 7px 8px oklch(19% 0.018 20 / 0.16);
+}
+
+.btn-secondary {
+  background-color: var(--color-btn-secondary-bg);
+  color: var(--color-btn-secondary-text) !important;
+  border: 1px solid var(--color-border);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-btn-secondary-hover);
+  border-color: var(--color-accent-border);
+}
+
+.btn-tertiary {
+  background-color: var(--color-btn-tertiary-bg);
+  color: var(--color-btn-tertiary-text) !important;
+  border: 1px solid var(--color-btn-tertiary-border);
+}
+
+.btn-tertiary:hover {
+  background-color: var(--color-btn-tertiary-hover-bg);
+  color: var(--color-btn-tertiary-hover-text) !important;
+  border-color: var(--color-btn-tertiary-hover-bg);
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: var(--color-accent);
+  border: 1px solid var(--color-accent-border);
+}
+
+.btn-outline:hover {
+  background-color: var(--color-accent-soft);
+  border-color: var(--color-accent);
+}
+
+.btn-ghost {
+  background-color: transparent;
+  color: var(--color-text);
+  border: 1px solid transparent;
+  padding-left: var(--space-2);
+  padding-right: var(--space-2);
+}
+
+.btn-ghost:hover {
+  opacity: 0.75;
+  text-decoration: underline;
+  transform: none;
+}
+
+.btn-contrast {
+  background-color: var(--color-btn-contrast-bg);
+  color: var(--color-btn-contrast-text) !important;
+  border: 0;
+}
+
+.btn-contrast:hover {
+  background-color: var(--color-btn-contrast-hover);
+}
+
+.btn-full {
+  width: 100%;
+}

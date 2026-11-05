@@ -1,0 +1,101 @@
+{
+  "title": "Partner with Yuvora",
+  "tagline": "Earn generous, lifetime recurring commissions recommending our top-rated Shopify apps.",
+  "description": "Join Shopify agencies, freelance developers, e-commerce consultants, and content creators earning reliable passive revenue every single month by recommending Yuvora apps to merchants.",
+  "highlights": [
+    "Up to 30% lifetime recurring commission",
+    "60-day generous cookie tracking window",
+    "On-time monthly payouts with transparent dashboard",
+    "Dedicated partner support & promotional assets"
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "title": "Apply in 2 Minutes",
+      "description": "Submit our quick application form. We review and approve accounts within 24 business hours."
+    },
+    {
+      "step": 2,
+      "title": "Share Your Unique Links",
+      "description": "Access custom referral links, banners, email templates, and product demos tailored to your audience."
+    },
+    {
+      "step": 3,
+      "title": "Merchants Install & Scale",
+      "description": "When a merchant installs any Yuvora app through your link, your 60-day cookie attributes the merchant to your account."
+    },
+    {
+      "step": 4,
+      "title": "Receive Monthly Recurring Payouts",
+      "description": "Earn up to 30% on every recurring invoice paid for the lifetime of that merchant's subscription."
+    }
+  ],
+  "commissionTiers": [
+    {
+      "tier": "Associate",
+      "activeReferrals": "1 - 10 active stores",
+      "commissionRate": "20% Recurring",
+      "recurringPeriod": "Lifetime of subscription",
+      "perk": "Self-service asset library & partner newsletter"
+    },
+    {
+      "tier": "Silver Partner",
+      "activeReferrals": "11 - 35 active stores",
+      "commissionRate": "25% Recurring",
+      "recurringPeriod": "Lifetime of subscription",
+      "perk": "Free development store licenses & priority email support"
+    },
+    {
+      "tier": "Premier Agency",
+      "activeReferrals": "36+ active stores",
+      "commissionRate": "30% Recurring",
+      "recurringPeriod": "Lifetime of subscription",
+      "perk": "Dedicated partner manager, custom co-branded webinars & Slack channel"
+    }
+  ],
+  "benefits": [
+    {
+      "title": "High Conversion Rates",
+      "description": "Our apps are battle-tested, high-rated, and feature frictionless 7-14 day trials that convert trialists into loyal subscribers.",
+      "icon": "trending-up"
+    },
+    {
+      "title": "Real-Time Tracking Dashboard",
+      "description": "Track clicks, trial starts, converted paid subscriptions, churn rates, and commissions in real-time.",
+      "icon": "pie-chart"
+    },
+    {
+      "title": "Ready-Made Marketing Collateral",
+      "description": "Get instant access to high-res screenshots, feature copy, video snippets, case studies, and email swipe files.",
+      "icon": "folder"
+    },
+    {
+      "title": "Reliable Net-15 Payouts",
+      "description": "Monthly automated payouts via PayPal, Stripe, or Direct International Bank Wire with a modest $50 minimum threshold.",
+      "icon": "credit-card"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How long does referral tracking last?",
+      "answer": "Our cookie window is 60 days. If someone clicks your link and installs within 60 days, you earn recurring commission on their subscription."
+    },
+    {
+      "question": "When and how are commissions paid?",
+      "answer": "Commissions are paid monthly on a Net-15 schedule via PayPal, Stripe Transfer, or Direct Wire Transfer once your balance reaches $50."
+    },
+    {
+      "question": "Do you offer free app licenses for my agency development stores?",
+      "answer": "Yes! All verified Shopify Partners and Agencies qualify for free staging and development store licenses for all Yuvora apps."
+    },
+    {
+      "question": "Can I refer merchants directly as an agency without affiliate links?",
+      "answer": "Yes, we also offer Partner Co-Selling credit where you can register merchant domains directly via your agency account manager."
+    }
+  ],
+  "cookieDays": 60,
+  "minimumPayout": "$50",
+  "payoutFrequency": "Monthly Net-15 via PayPal or Wire",
+  "signupUrl": "mailto:affiliates@yuvora.com?subject=Yuvora%20Affiliate%20Program%20Application&body=Hello%20Yuvora%20Team%2C%0A%0AI%20would%20like%20to%20join%20the%20Yuvora%20Affiliate%20Program.%0A%0AName%3A%20%0ACompany%2FAgency%3A%20%0AWebsite%3A%20%0AEstimated%20Shopify%20clients%2Faudience%20size%3A%20%0A"
+}
+

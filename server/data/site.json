@@ -1,0 +1,76 @@
+{
+  "stats": [
+    {
+      "value": "20,000+",
+      "label": "Active Shopify Stores",
+      "description": "Merchants powering their sales across 85+ countries"
+    },
+    {
+      "value": "$140M+",
+      "label": "Gross Merchandise Value",
+      "description": "Processed safely through our native discount & review flows"
+    },
+    {
+      "value": "4.9 / 5.0",
+      "label": "Average App Store Rating",
+      "description": "Across hundreds of verified Shopify merchant reviews"
+    },
+    {
+      "value": "99.99%",
+      "label": "Edge Uptime",
+      "description": "Zero latency overhead with Shopify Functions native execution"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "title": "Shopify Functions Native",
+      "description": "Unlike legacy apps that inject bulky JavaScript, our logic runs natively at Shopify's edge. Zero checkout lag, zero theme bloat.",
+      "icon": "zap"
+    },
+    {
+      "title": "Designed for Conversion Lift",
+      "description": "Every UI component, discount trigger, and review carousel is A/B tested to maximize buyer confidence and average order value.",
+      "icon": "trending-up"
+    },
+    {
+      "title": "Clean Theme Compatibility",
+      "description": "Built 100% using Shopify Online Store 2.0 theme app extensions. Install and remove cleanly without leaving residual code in your Liquid files.",
+      "icon": "check-circle"
+    },
+    {
+      "title": "Dedicated Human Support",
+      "description": "Real Shopify engineers on standby to help you optimize campaign structures, configure custom CSS, and solve edge cases.",
+      "icon": "users"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "testimonial-1",
+      "quote": "Discount Engine replaced three separate apps for us. We saw a 22% bump in Average Order Value in our first week using the tiered spend bar.",
+      "author": "Elena Rostova",
+      "role": "Head of E-Commerce",
+      "store": "Aura Silk & Apparel (Shopify Plus)",
+      "metric": "+22% AOV Lift",
+      "avatar": "/images/avatars/elena.svg"
+    },
+    {
+      "id": "testimonial-2",
+      "quote": "Reviora's photo review widgets look breathtaking on our Dawn theme. Google rich snippet stars started appearing within 5 days of migration.",
+      "author": "Marcus Sterling",
+      "role": "Founder & CEO",
+      "store": "Nordic Peak Gear",
+      "metric": "+31% Conversion Rate",
+      "avatar": "/images/avatars/marcus.svg"
+    },
+    {
+      "id": "testimonial-3",
+      "quote": "As an agency handling over 40 Shopify brands, Yuvora is our go-to suite. The apps are lightweight, never break checkout, and client support is superb.",
+      "author": "Sarah Jenkins",
+      "role": "Lead Architect",
+      "store": "Velocity Commerce Agency",
+      "metric": "40+ Stores Deployed",
+      "avatar": "/images/avatars/sarah.svg"
+    }
+  ]
+}
+

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" fill="none">
+  <rect width="1200" height="800" fill="#0F172A"/>
+  <!-- Top bar -->
+  <rect x="0" y="0" width="1200" height="56" fill="#1E293B"/>
+  <circle cx="36" cy="28" r="7" fill="#EF4444"/>
+  <circle cx="58" cy="28" r="7" fill="#F59E0B"/>
+  <circle cx="80" cy="28" r="7" fill="#10B981"/>
+  <text x="120" y="34" font-family="-apple-system, sans-serif" font-size="14" fill="#94A3B8">Discount Engine • Volume Pricing Campaign Builder</text>
+  <rect x="1050" y="16" width="114" height="26" rx="6" fill="#3B82F6"/>
+  <text x="1075" y="33" font-family="-apple-system, sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">Save &amp; Publish</text>
+
+  <!-- Sidebar -->
+  <rect x="0" y="56" width="240" height="744" fill="#1E293B" opacity="0.6"/>
+  <rect x="24" y="90" width="192" height="38" rx="8" fill="#334155"/>
+  <text x="40" y="114" font-family="-apple-system, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">⚡ Active Campaigns</text>
+  <text x="40" y="164" font-family="-apple-system, sans-serif" font-size="14" fill="#94A3B8">🎁 Tiered Free Gift</text>
+  <text x="40" y="204" font-family="-apple-system, sans-serif" font-size="14" fill="#94A3B8">🏷️ Automatic BOGO</text>
+  <text x="40" y="244" font-family="-apple-system, sans-serif" font-size="14" fill="#94A3B8">📊 Analytics</text>
+  <text x="40" y="284" font-family="-apple-system, sans-serif" font-size="14" fill="#94A3B8">⚙️ Settings</text>
+
+  <!-- Main Canvas -->
+  <rect x="280" y="90" width="880" height="670" rx="16" fill="#1E293B"/>
+  <text x="320" y="140" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">Configure Volume Tiers: Summer Collection</text>
+  <text x="320" y="168" font-family="-apple-system, sans-serif" font-size="14" fill="#94A3B8">Executed globally via Shopify Functions with sub-millisecond checkout response.</text>
+
+  <!-- Tier Cards -->
+  <g transform="translate(320, 200)">
+    <rect width="250" height="180" rx="12" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+    <text x="24" y="44" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">Tier 1: Buy 2 Items</text>
+    <text x="24" y="74" font-family="-apple-system, sans-serif" font-size="13" fill="#94A3B8">Discount applied automatically</text>
+    <rect x="24" y="100" width="202" height="48" rx="8" fill="#1E293B"/>
+    <text x="40" y="130" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#10B981">10% OFF</text>
+  </g>
+
+  <g transform="translate(600, 200)">
+    <rect width="250" height="180" rx="12" fill="#0F172A" stroke="#3B82F6" stroke-width="2"/>
+    <rect x="150" y="14" width="86" height="20" rx="10" fill="#3B82F6"/>
+    <text x="162" y="28" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#FFFFFF">POPULAR</text>
+    <text x="24" y="44" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">Tier 2: Buy 3 Items</text>
+    <text x="24" y="74" font-family="-apple-system, sans-serif" font-size="13" fill="#94A3B8">Best conversion driver</text>
+    <rect x="24" y="100" width="202" height="48" rx="8" fill="#1E293B"/>
+    <text x="40" y="130" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#3B82F6">15% OFF</text>
+  </g>
+
+  <g transform="translate(880, 200)">
+    <rect width="240" height="180" rx="12" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+    <text x="24" y="44" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">Tier 3: Buy 4+ Items</text>
+    <text x="24" y="74" font-family="-apple-system, sans-serif" font-size="13" fill="#94A3B8">Maximum order volume</text>
+    <rect x="24" y="100" width="192" height="48" rx="8" fill="#1E293B"/>
+    <text x="40" y="130" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#F59E0B">20% OFF</text>
+  </g>
+
+  <!-- Live Store Preview Box -->
+  <g transform="translate(320, 420)">
+    <rect width="800" height="300" rx="12" fill="#0F172A" stroke="#334155"/>
+    <text x="32" y="48" font-family="-apple-system, sans-serif" font-size="15" font-weight="600" fill="#94A3B8">STOREFRONT THEME PREVIEW</text>
+    <rect x="32" y="70" width="736" height="70" rx="10" fill="#1E293B" stroke="#3B82F6" stroke-width="1.5"/>
+    <circle cx="64" cy="105" r="16" fill="#3B82F6"/>
+    <text x="60" y="110" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">✓</text>
+    <text x="96" y="98" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Bundle &amp; Save unlocked!</text>
+    <text x="96" y="120" font-family="-apple-system, sans-serif" font-size="13" fill="#94A3B8">You qualified for 15% off your entire cart total. Checkout total updated.</text>
+    <rect x="630" y="86" width="118" height="38" rx="8" fill="#10B981"/>
+    <text x="650" y="110" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Checkout Now</text>
+  </g>
+</svg>
+

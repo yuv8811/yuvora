@@ -1,0 +1,292 @@
+[
+  {
+    "slug": "reviora",
+    "name": "Reviora",
+    "tagline": "Visual product reviews, automated UGC collection & Google SEO rich snippets",
+    "description": "Turn verified customer satisfaction into high-velocity sales. Reviora automates multi-channel review collection via email and SMS, showcases authentic photo & video reviews with customizable widgets, and ranks higher on Google with automated schema markup.",
+    "icon": "/images/app-logo/reviora.png",
+    "screenshots": [
+      {
+        "url": "/images/apps/reviora-screen1.svg",
+        "alt": "Reviora photo and video customer review grid on Shopify product page",
+        "caption": "Elegant visual social proof gallery with lightbox zoom",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "url": "/images/apps/reviora-screen2.svg",
+        "alt": "Reviora review request automation sequence builder",
+        "caption": "Smart timed review request sequences with custom discount incentives",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "features": [
+      {
+        "title": "Photo & Video Reviews",
+        "description": "Rich visual media capture with mobile-optimized upload and instant CDN compression.",
+        "icon": "camera"
+      },
+      {
+        "title": "Automated Request Flows",
+        "description": "Send timed, branded review requests via email and SMS post-delivery.",
+        "icon": "mail"
+      },
+      {
+        "title": "Google Rich Snippets SEO",
+        "description": "Automatic Product & AggregateRating JSON-LD schema for star ratings in Google search.",
+        "icon": "search"
+      },
+      {
+        "title": "1-Click CSV & App Importer",
+        "description": "Migrate your existing reviews from Judge.me, Loox, Yotpo, or CSV in minutes.",
+        "icon": "upload-cloud"
+      },
+      {
+        "title": "AI Sentiment & Moderation",
+        "description": "Detect spam, inappropriate content, and sentiment automatically before publishing.",
+        "icon": "cpu"
+      },
+      {
+        "title": "Multi-Language & Currency",
+        "description": "Full translation compatibility for international stores and Shopify Markets.",
+        "icon": "globe"
+      }
+    ],
+    "pricing": [
+      {
+        "id": "starter",
+        "name": "Starter",
+        "price": "$14.99",
+        "period": "month",
+        "description": "Photo reviews & automated collection for emerging stores.",
+        "popular": false,
+        "features": [
+          "Up to 250 review request emails/month",
+          "Photo reviews & basic review carousel",
+          "Google rich snippet schema generation",
+          "CSV import from existing review apps",
+          "14-day free trial"
+        ],
+        "ctaText": "Start 14-Day Free Trial",
+        "ctaUrl": "https://apps.shopify.com/placeholder-reviora"
+      },
+      {
+        "id": "pro",
+        "name": "Pro",
+        "price": "$39.99",
+        "period": "month",
+        "description": "Video reviews, SMS requests & Q&A section for fast-growing brands.",
+        "popular": true,
+        "features": [
+          "Unlimited review requests & storage",
+          "HD video reviews with fast transcoding",
+          "Product page Q&A accordion module",
+          "Customizable review discount incentives",
+          "Klaviyo & Omnisend bi-directional sync",
+          "Priority support & onboarding session"
+        ],
+        "ctaText": "Start 14-Day Free Trial",
+        "ctaUrl": "https://apps.shopify.com/placeholder-reviora"
+      },
+      {
+        "id": "scale",
+        "name": "Scale & Plus",
+        "price": "$99.99",
+        "period": "month",
+        "description": "Headless storefronts, custom domains & white-label review emails.",
+        "popular": false,
+        "features": [
+          "Everything in Pro",
+          "Custom sender domain (SPF/DKIM)",
+          "Storefront GraphQL & REST API access",
+          "Dedicated customer success manager",
+          "Custom widget CSS styling assistance"
+        ],
+        "ctaText": "Start 14-Day Free Trial",
+        "ctaUrl": "https://apps.shopify.com/placeholder-reviora"
+      }
+    ],
+    "rating": 4.7,
+    "ratingCount": 3429,
+    "installs": "8,500+",
+    "categories": [
+      "Product Reviews",
+      "Social Proof"
+    ],
+    "shopifyAppStoreUrl": "https://apps.shopify.com/reviora",
+    "faq": [
+      {
+        "question": "Can I migrate my existing reviews from another Shopify app?",
+        "answer": "Yes! Our one-click importer supports direct CSV and API migrations from Judge.me, Loox, Yotpo, Stamped, and Okendo with zero loss of ratings or images."
+      },
+      {
+        "question": "How do Google Rich Snippets work with Reviora?",
+        "answer": "Reviora automatically injects valid Schema.org AggregateRating structured data into your product pages, enabling Google search to display your star count and review rating directly in organic search results."
+      },
+      {
+        "question": "Are review request emails customizable?",
+        "answer": "Completely. You can customize branding, colors, logos, timing schedules, and incentivize buyers with dynamic discount coupon codes."
+      },
+      {
+        "question": "Does Reviora support multi-language stores?",
+        "answer": "Yes, Reviora works seamlessly with Shopify Markets and translation tools like Langify and Weglot."
+      }
+    ],
+    "published": true,
+    "featured": true,
+    "badge": "Popular"
+  },
+  {
+    "slug": "zenspeed",
+    "name": "Zenspeed",
+    "tagline": "Automated Core Web Vitals speed booster & Google SEO optimizer",
+    "description": "Accelerate your Shopify storefront into the 95+ Google Lighthouse tier. Zenspeed automates instant page preloading, Next-Gen image compression (WebP/AVIF), critical CSS inlining, rich schema structured data, and broken link SEO fixes with zero code modifications.",
+    "icon": "/images/apps/cartboost-icon.svg",
+    "screenshots": [
+      {
+        "url": "/images/apps/reviora-screen1.svg",
+        "alt": "Zenspeed Core Web Vitals performance analytics dashboard",
+        "caption": "Live Lighthouse speed metrics and automated optimization logs",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "url": "/images/apps/reviora-screen2.svg",
+        "alt": "Zenspeed SEO schema generator and image optimizer",
+        "caption": "Automated rich snippet schema injection and image compression",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "features": [
+      {
+        "title": "Instant Page Preloading",
+        "description": "Predictive link prefetching loads product pages in under 100ms before shoppers even click.",
+        "icon": "zap"
+      },
+      {
+        "title": "Next-Gen Image Optimizer",
+        "description": "Automated WebP/AVIF conversion and lossless compression with adaptive srcset.",
+        "icon": "palette"
+      },
+      {
+        "title": "Core Web Vitals Booster",
+        "description": "Eliminates layout shift (CLS), reduces main-thread blocking (TBT), and optimizes LCP.",
+        "icon": "cpu"
+      },
+      {
+        "title": "Comprehensive SEO Schema",
+        "description": "Automated Product, Organization, Breadcrumb, and FAQ JSON-LD rich snippet injection.",
+        "icon": "search"
+      },
+      {
+        "title": "Script Delay & Minification",
+        "description": "Defers render-blocking third-party scripts without breaking analytics or tracking tags.",
+        "icon": "layers"
+      },
+      {
+        "title": "Automated 404 & Redirect Fixer",
+        "description": "Instantly identifies broken URLs and redirects organic search traffic safely.",
+        "icon": "shield"
+      }
+    ],
+    "pricing": [
+      {
+        "id": "starter",
+        "name": "Starter",
+        "price": "$14.99",
+        "period": "month",
+        "description": "Essential image compression & basic SEO schema for growing stores.",
+        "popular": false,
+        "features": [
+          "Automated WebP image compression",
+          "Basic JSON-LD schema markup",
+          "Automated 404 broken link detection",
+          "14-day free trial"
+        ],
+        "ctaText": "Start 14-Day Free Trial",
+        "ctaUrl": "https://apps.shopify.com/zenspeed"
+      },
+      {
+        "id": "pro",
+        "name": "Pro Speed",
+        "price": "$29.99",
+        "period": "month",
+        "description": "Full Core Web Vitals booster & predictive page preloading.",
+        "popular": true,
+        "features": [
+          "Instant predictive page preloading",
+          "Full Core Web Vitals optimization (LCP & CLS)",
+          "Complete Google rich snippet schema",
+          "Render-blocking script deferral",
+          "Priority support & theme speed audit"
+        ],
+        "ctaText": "Start 14-Day Free Trial",
+        "ctaUrl": "https://apps.shopify.com/zenspeed"
+      },
+      {
+        "id": "scale",
+        "name": "Enterprise",
+        "price": "$69.99",
+        "period": "month",
+        "description": "Dedicated CDN turbo, headless support & white-glove speed monitoring.",
+        "popular": false,
+        "features": [
+          "Everything in Pro Speed",
+          "Global edge CDN optimization",
+          "Headless & Hydrogen storefront support",
+          "24/7 automated speed regression alerts",
+          "Dedicated performance engineer"
+        ],
+        "ctaText": "Start 14-Day Free Trial",
+        "ctaUrl": "https://apps.shopify.com/zenspeed"
+      }
+    ],
+    "rating": 4.9,
+    "ratingCount": 184,
+    "installs": "2,400+",
+    "categories": [
+      "Speed Optimization",
+      "SEO & Marketing"
+    ],
+    "shopifyAppStoreUrl": "https://apps.shopify.com/zenspeed",
+    "faq": [
+      {
+        "question": "Will Zenspeed break my custom Shopify theme or installed apps?",
+        "answer": "No. Zenspeed uses non-destructive optimizations and native Shopify Theme App Extensions, ensuring all your tracking pixels, analytics, and theme customizations stay intact."
+      },
+      {
+        "question": "How quickly will my store speed improve after installing?",
+        "answer": "Most stores see an immediate 20–40 point jump in Google PageSpeed Insights and sub-second page loads within minutes of activation."
+      },
+      {
+        "question": "How does Zenspeed help my Google search rankings?",
+        "answer": "Faster page load times directly improve Google's Core Web Vitals ranking factor, while automated JSON-LD schemas generate star ratings and rich snippets in search results."
+      }
+    ],
+    "published": true,
+    "featured": true,
+    "badge": "Speed & SEO"
+  },
+  {
+    "slug": "draft-app",
+    "name": "Draft App (Unpublished)",
+    "tagline": "Internal test app",
+    "description": "Unpublished internal test app for testing published filtering.",
+    "icon": "/images/apps/cartboost-icon.svg",
+    "screenshots": [],
+    "features": [],
+    "pricing": [],
+    "rating": 5,
+    "ratingCount": 0,
+    "installs": "Internal",
+    "categories": [
+      "Internal"
+    ],
+    "shopifyAppStoreUrl": "https://apps.shopify.com/placeholder-draft",
+    "faq": [],
+    "published": false,
+    "featured": false
+  }
+]

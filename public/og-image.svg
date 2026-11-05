@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" fill="none">
+  <rect width="1200" height="630" fill="#000000"/>
+  <circle cx="1000" cy="150" r="350" fill="#0071E3" opacity="0.25" filter="blur(80px)"/>
+  <circle cx="200" cy="500" r="280" fill="#0077ED" opacity="0.15" filter="blur(90px)"/>
+  
+  <rect x="80" y="80" width="60" height="60" rx="16" fill="#0071E3"/>
+  <path d="M98 98L110 116L122 98" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="110" cy="122" r="3.5" fill="white"/>
+  <text x="160" y="122" font-family="-apple-system, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">Yuvora</text>
+
+  <text x="80" y="270" font-family="-apple-system, sans-serif" font-size="58" font-weight="800" fill="#FFFFFF" letter-spacing="-1px">High-Performance Shopify Apps</text>
+  <text x="80" y="340" font-family="-apple-system, sans-serif" font-size="58" font-weight="800" fill="#0071E3" letter-spacing="-1px">Built for Conversion &amp; Scale.</text>
+
+  <text x="80" y="420" font-family="-apple-system, sans-serif" font-size="24" fill="#A1A1A6" width="900">
+    Powering 20,000+ merchants globally with native Shopify Functions, volume discounts,
+  </text>
+  <text x="80" y="456" font-family="-apple-system, sans-serif" font-size="24" fill="#A1A1A6">
+    and verified visual review automations. Zero checkout lag.
+  </text>
+
+  <rect x="80" y="520" width="220" height="48" rx="24" fill="#0071E3"/>
+  <text x="190" y="551" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">Explore Shopify Apps</text>
+
+  <rect x="320" y="520" width="180" height="48" rx="24" fill="#1C1C1E" stroke="#2C2C2E"/>
+  <text x="410" y="551" font-family="-apple-system, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">Partner Scheme</text>
+</svg>
+

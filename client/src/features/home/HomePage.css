@@ -1,0 +1,206 @@
+.home-section-heading {
+  max-width: 680px;
+  margin: 0 auto var(--space-12);
+  text-align: center;
+}
+
+.home-section-kicker,
+.final-cta-kicker {
+  display: inline-block;
+  color: var(--color-accent);
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.home-section-heading h2 {
+  margin-top: var(--space-2);
+}
+
+.home-section-heading p {
+  max-width: 620px;
+  margin: var(--space-2) auto 0;
+}
+
+.home-section-action {
+  margin-top: var(--space-10);
+  text-align: center;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  border-block: 1px solid var(--color-border);
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding: var(--space-8) var(--space-4);
+  text-align: center;
+}
+
+.stat-value {
+  color: var(--color-accent);
+  font-family: var(--font-family-display);
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.04;
+  font-variant-numeric: tabular-nums;
+}
+
+.stat-label {
+  color: var(--color-text);
+  font-size: var(--font-size-body);
+  font-weight: 700;
+}
+
+.stat-description {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-relaxed);
+}
+
+.advantage-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--space-6);
+}
+
+.advantage-card,
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  background-color: var(--color-bg);
+  padding: var(--space-8);
+}
+
+.advantage-card {
+  gap: var(--space-3);
+}
+
+.advantage-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  background-color: var(--color-accent-soft);
+  color: var(--color-accent);
+}
+
+.advantage-title {
+  font-size: var(--font-size-h4);
+  font-weight: 700;
+}
+
+.advantage-card p {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-relaxed);
+}
+
+.testimonial-card {
+  justify-content: space-between;
+  gap: var(--space-6);
+}
+
+.testimonial-metric {
+  display: inline-block;
+  margin-bottom: var(--space-4);
+  border-radius: var(--radius-full);
+  background-color: var(--color-success-bg);
+  color: var(--color-success);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  padding: 4px 10px;
+}
+
+.testimonial-quote {
+  color: var(--color-text);
+  font-size: var(--font-size-body-lg);
+  font-style: italic;
+  line-height: var(--line-height-normal);
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.testimonial-avatar {
+  border-radius: var(--radius-full);
+}
+
+.testimonial-author h4 {
+  color: var(--color-text);
+  font-family: var(--font-family);
+  font-size: var(--font-size-body);
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.testimonial-author p {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-xs);
+}
+
+.final-cta-section {
+  overflow: hidden;
+}
+
+.final-cta {
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.final-cta-kicker {
+  color: var(--color-accent);
+}
+
+.final-cta h2 {
+  margin: var(--space-3) auto var(--space-4);
+}
+
+.final-cta p {
+  max-width: 600px;
+  margin: 0 auto var(--space-8);
+  color: var(--color-text-inverse-muted);
+  font-size: var(--font-size-body-lg);
+}
+
+.final-cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-4);
+}
+
+@media (min-width: 720px) {
+  .stat-item + .stat-item {
+    position: relative;
+  }
+
+  .stat-item + .stat-item::before {
+    position: absolute;
+    top: var(--space-8);
+    bottom: var(--space-8);
+    left: 0;
+    width: 1px;
+    background-color: var(--color-border);
+    content: '';
+  }
+}
+
+@media (max-width: 560px) {
+  .stat-item + .stat-item {
+    border-top: 1px solid var(--color-border);
+  }
+}

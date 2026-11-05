@@ -1,0 +1,179 @@
+:root {
+  /* True monochrome: white surfaces, charcoal ink, and functional gray steps. */
+  --color-bg: oklch(100% 0 0);
+  --color-bg-secondary: oklch(97% 0 0);
+  --color-bg-tertiary: oklch(93% 0 0);
+  --color-bg-glass: oklch(100% 0 0 / 0.9);
+  --color-bg-contrast: oklch(12% 0 0);
+  --color-bg-contrast-soft: oklch(19% 0 0);
+
+  --color-text: oklch(12% 0 0);
+  --color-text-secondary: oklch(38% 0 0);
+  --color-text-tertiary: oklch(48% 0 0);
+  --color-text-inverse: oklch(99% 0 0);
+  --color-text-inverse-muted: oklch(78% 0 0);
+  --color-on-accent: var(--color-text-inverse);
+
+  --color-accent: oklch(12% 0 0);
+  --color-accent-hover: oklch(24% 0 0);
+  --color-accent-soft: oklch(94% 0 0);
+  --color-accent-ambient: oklch(96% 0 0);
+  --color-accent-border: oklch(70% 0 0);
+  --color-accent-focus: oklch(12% 0 0 / 0.24);
+
+  --color-btn-primary-bg: var(--color-accent);
+  --color-btn-primary-text: var(--color-text-inverse);
+  --color-btn-primary-hover: var(--color-accent-hover);
+  --color-btn-secondary-bg: oklch(100% 0 0);
+  --color-btn-secondary-text: var(--color-text);
+  --color-btn-secondary-hover: var(--color-bg-tertiary);
+  --color-btn-tertiary-bg: transparent;
+  --color-btn-tertiary-text: var(--color-text-inverse);
+  --color-btn-tertiary-border: oklch(65% 0 0);
+  --color-btn-tertiary-hover-bg: var(--color-text-inverse);
+  --color-btn-tertiary-hover-text: var(--color-bg-contrast);
+  --color-btn-contrast-bg: var(--color-text-inverse);
+  --color-btn-contrast-text: var(--color-bg-contrast);
+  --color-btn-contrast-hover: oklch(92% 0 0);
+
+  --color-logo-bg: oklch(12% 0 0);
+  --color-logo-fg: var(--color-on-accent);
+  --color-success: oklch(40% 0 0);
+  --color-success-bg: oklch(93% 0 0);
+  --color-warning: oklch(47% 0 0);
+  --color-warning-bg: oklch(92% 0 0);
+  --color-danger: oklch(32% 0 0);
+  --color-danger-bg: oklch(91% 0 0);
+  --color-info: oklch(44% 0 0);
+  --color-info-bg: oklch(93% 0 0);
+
+  --color-border: oklch(86% 0 0);
+  --color-border-hover: oklch(66% 0 0);
+  --color-border-contrast: oklch(38% 0 0);
+  --color-product-chrome: oklch(17% 0 0);
+  --color-product-chrome-raised: oklch(23% 0 0);
+  --color-product-muted: oklch(70% 0 0);
+
+  --font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-family-display: 'Funnel Display', 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-family-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --font-size-hero: clamp(2.75rem, 4vw + 0.8rem, 4.5rem);
+  --font-size-h1: clamp(2.25rem, 2.6vw + 0.8rem, 3.5rem);
+  --font-size-h2: clamp(1.75rem, 1.6vw + 0.8rem, 2.5rem);
+  --font-size-h3: clamp(1.35rem, 1vw + 0.75rem, 1.65rem);
+  --font-size-h4: 1.125rem;
+  --font-size-body-lg: 1.125rem;
+  --font-size-body: 1rem;
+  --font-size-sm: 0.875rem;
+  --font-size-xs: 0.75rem;
+
+  --line-height-tight: 1.08;
+  --line-height-heading: 1.16;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.65;
+
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  --shadow-sm: 0 1px 2px oklch(12% 0 0 / 0.05);
+  --shadow-md: 0 4px 8px oklch(12% 0 0 / 0.08);
+  --shadow-lg: 0 8px 8px oklch(12% 0 0 / 0.1);
+  --shadow-xl: 0 8px 8px oklch(12% 0 0 / 0.14);
+  --shadow-product: 0 24px 48px oklch(12% 0 0 / 0.18);
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+
+  --container-max-width: 1160px;
+  --container-narrow-width: 820px;
+  --container-padding: clamp(16px, 4vw, 32px);
+
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: 150ms var(--ease-out-expo);
+  --transition-normal: 220ms var(--ease-out-expo);
+  --transition-smooth: 400ms var(--ease-out-quart);
+
+  --z-base: 1;
+  --z-sticky: 100;
+  --z-modal-backdrop: 200;
+  --z-modal: 210;
+  --z-drawer: 300;
+  --z-toast: 400;
+}
+
+[data-theme='dark'] {
+  --color-bg: oklch(10% 0 0);
+  --color-bg-secondary: oklch(15% 0 0);
+  --color-bg-tertiary: oklch(21% 0 0);
+  --color-bg-glass: oklch(10% 0 0 / 0.9);
+  --color-bg-contrast: oklch(5% 0 0);
+  --color-bg-contrast-soft: oklch(16% 0 0);
+
+  --color-text: oklch(98% 0 0);
+  --color-text-secondary: oklch(78% 0 0);
+  --color-text-tertiary: oklch(66% 0 0);
+  --color-text-inverse: oklch(99% 0 0);
+  --color-text-inverse-muted: oklch(78% 0 0);
+  --color-on-accent: oklch(10% 0 0);
+
+  --color-accent: oklch(96% 0 0);
+  --color-accent-hover: oklch(88% 0 0);
+  --color-accent-soft: oklch(24% 0 0);
+  --color-accent-ambient: oklch(19% 0 0);
+  --color-accent-border: oklch(50% 0 0);
+  --color-accent-focus: oklch(96% 0 0 / 0.28);
+
+  --color-btn-primary-bg: var(--color-accent);
+  --color-btn-primary-text: var(--color-on-accent);
+  --color-btn-primary-hover: var(--color-accent-hover);
+  --color-btn-secondary-bg: oklch(18% 0 0);
+  --color-btn-secondary-text: var(--color-text);
+  --color-btn-secondary-hover: oklch(25% 0 0);
+  --color-btn-tertiary-bg: transparent;
+  --color-btn-tertiary-text: var(--color-text-inverse);
+  --color-btn-tertiary-border: oklch(62% 0 0);
+  --color-btn-tertiary-hover-bg: var(--color-text-inverse);
+  --color-btn-tertiary-hover-text: var(--color-bg-contrast);
+  --color-btn-contrast-bg: var(--color-text-inverse);
+  --color-btn-contrast-text: var(--color-bg-contrast);
+  --color-btn-contrast-hover: oklch(90% 0 0);
+
+  --color-logo-bg: var(--color-accent);
+  --color-logo-fg: var(--color-on-accent);
+  --color-success: oklch(78% 0 0);
+  --color-success-bg: oklch(25% 0 0);
+  --color-warning: oklch(82% 0 0);
+  --color-warning-bg: oklch(28% 0 0);
+  --color-danger: oklch(74% 0 0);
+  --color-danger-bg: oklch(26% 0 0);
+  --color-info: oklch(76% 0 0);
+  --color-info-bg: oklch(24% 0 0);
+
+  --color-border: oklch(31% 0 0);
+  --color-border-hover: oklch(44% 0 0);
+  --color-border-contrast: oklch(40% 0 0);
+  --color-product-chrome: oklch(12% 0 0);
+  --color-product-chrome-raised: oklch(18% 0 0);
+  --color-product-muted: oklch(70% 0 0);
+
+  --shadow-sm: 0 1px 2px oklch(0% 0 0 / 0.35);
+  --shadow-md: 0 4px 8px oklch(0% 0 0 / 0.44);
+  --shadow-lg: 0 8px 8px oklch(0% 0 0 / 0.52);
+  --shadow-xl: 0 8px 8px oklch(0% 0 0 / 0.58);
+  --shadow-product: 0 24px 48px oklch(0% 0 0 / 0.45);
+}

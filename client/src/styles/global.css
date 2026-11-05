@@ -1,0 +1,117 @@
+@import './tokens.css';
+@import './reset.css';
+@import './utilities.css';
+
+/* Component Styles */
+@import '../components/Button/Button.css';
+@import '../components/Card/Card.css';
+@import '../components/Section/Section.css';
+@import '../components/Accordion/Accordion.css';
+@import '../components/Modal/Modal.css';
+@import '../components/PricingTable/PricingTable.css';
+@import '../components/FeatureGrid/FeatureGrid.css';
+
+/* Layout Styles */
+@import '../layouts/Header.css';
+@import '../layouts/Footer.css';
+
+/* Feature Styles */
+@import '../features/home/components/Hero.css';
+@import '../features/home/HomePage.css';
+@import '../features/apps/components/AppCard.css';
+@import '../features/apps/components/AppFilter.css';
+@import '../features/apps/components/ScreenshotGallery.css';
+@import '../features/apps/AppDetailPage.css';
+@import '../features/affiliate/components/CommissionTable.css';
+@import '../features/schemes/components/SchemeCard.css';
+
+/* Typography Hierarchy */
+h1, .h1 {
+  font-family: var(--font-family-display);
+  font-size: var(--font-size-h1);
+  font-weight: 700;
+  line-height: var(--line-height-heading);
+  letter-spacing: -0.025em;
+  color: var(--color-text);
+  font-optical-sizing: auto;
+  text-wrap: balance;
+}
+
+h2, .h2 {
+  font-family: var(--font-family-display);
+  font-size: var(--font-size-h2);
+  font-weight: 700;
+  line-height: var(--line-height-heading);
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+  font-optical-sizing: auto;
+  text-wrap: balance;
+}
+
+h3, .h3 {
+  font-family: var(--font-family-display);
+  font-size: var(--font-size-h3);
+  font-weight: 600;
+  line-height: var(--line-height-heading);
+  letter-spacing: -0.015em;
+  color: var(--color-text);
+  text-wrap: balance;
+}
+
+h4, .h4 {
+  font-family: var(--font-family-display);
+  font-size: var(--font-size-h4);
+  font-weight: 600;
+  line-height: var(--line-height-heading);
+  color: var(--color-text);
+}
+
+p {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-relaxed);
+  text-wrap: pretty;
+}
+
+/* Contrast Section Bands */
+.section-contrast {
+  background-color: var(--color-bg-contrast);
+  color: var(--color-text-inverse);
+}
+
+.section-contrast h1,
+.section-contrast h2,
+.section-contrast h3,
+.section-contrast h4 {
+  color: var(--color-text-inverse);
+}
+
+.section-contrast p {
+  color: var(--color-text-inverse-muted);
+}
+
+/* Glassy Header Effect */
+.glass-header {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-sticky);
+  background: var(--color-bg-glass);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--color-border);
+  transition: background-color var(--transition-fast), border-color var(--transition-fast);
+}
+
+::selection {
+  background-color: var(--color-accent-soft);
+  color: var(--color-text);
+}
+
+/* Touch targets */
+.touch-target {
+  min-height: 44px;
+  min-width: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
