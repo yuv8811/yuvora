@@ -4,6 +4,12 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
+  server: {
+    allowedHosts: true,
+  },
+  preview: {
+    allowedHosts: true,
+  },
   resolve: {
     alias: {
       '@components': path.resolve(import.meta.dirname, 'client/src/components'),

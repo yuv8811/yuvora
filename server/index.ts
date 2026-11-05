@@ -14,7 +14,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
 
-const isProd = process.env.NODE_ENV === 'production';
+const isProd = env.NODE_ENV === 'production' || process.env.RENDER === 'true';
 const app = express();
 
 app.use(compression());
@@ -48,7 +48,10 @@ async function createServer() {
     const { createServer: createViteServer } = await import('vite');
     vite = await createViteServer({
       root: rootDir,
-      server: { middlewareMode: true },
+      server: {
+        middlewareMode: true,
+        allowedHosts: true,
+      },
       appType: 'custom',
     });
     app.use(vite.middlewares);
