@@ -40,9 +40,25 @@ export const AffiliateProgramSchema = z.object({
   signupUrl: z.string(),
 });
 
+export const AffiliateApplicationSchema = z.object({
+  fullName: z.string().min(2, 'Full name is required'),
+  email: z.string().email('Please enter a valid email address'),
+  websiteUrl: z.string().min(3, 'Website or agency URL is required'),
+  partnerType: z.enum([
+    'agency',
+    'consultant',
+    'creator',
+    'tech_partner',
+    'other'
+  ]).default('agency'),
+  referralVolume: z.string().min(1, 'Please select your estimated monthly merchant volume'),
+  promotionStrategy: z.string().optional(),
+});
+
 export type AffiliateProgram = z.infer<typeof AffiliateProgramSchema>;
 export type AffiliateStep = z.infer<typeof AffiliateStepSchema>;
 export type CommissionTier = z.infer<typeof CommissionTierSchema>;
 export type AffiliateBenefit = z.infer<typeof AffiliateBenefitSchema>;
 export type AffiliateFaq = z.infer<typeof AffiliateFaqSchema>;
+export type AffiliateApplication = z.infer<typeof AffiliateApplicationSchema>;
 

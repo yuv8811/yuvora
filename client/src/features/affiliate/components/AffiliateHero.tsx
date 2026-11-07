@@ -31,7 +31,7 @@ export const AffiliateHero: React.FC<{ affiliate: AffiliateProgram }> = ({ affil
           </p>
 
           <div style={{ display: 'flex', justifyContent: 'center', gap: 'var(--space-4)', flexWrap: 'wrap' }}>
-            <Button href={affiliate.signupUrl} variant="primary" size="lg">
+            <Button href="#apply" variant="primary" size="lg">
               Apply to Become a Partner
             </Button>
             <Button href="#commission-structure" variant="outline" size="lg">

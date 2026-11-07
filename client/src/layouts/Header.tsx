@@ -95,6 +95,12 @@ export const Header: React.FC = () => {
             >
               About
             </Link>
+            <Link
+              to={ROUTES.CONTACT}
+              className={`nav-link ${location.pathname === ROUTES.CONTACT ? 'active' : ''}`}
+            >
+              Contact
+            </Link>
           </nav>
 
           <div className="nav-actions">

@@ -29,10 +29,6 @@ export const Footer: React.FC = () => {
               <span>{SITE_CONFIG.name}</span>
             </Link>
             <p>{SITE_CONFIG.description}</p>
-            <div className="status-indicator">
-              <span className="status-dot" />
-              <span>All Shopify Functions &amp; Services Operational</span>
-            </div>
           </div>
 
           <div>

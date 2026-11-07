@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container } from '@components/Container/Container';
 import { Section } from '@components/Section/Section';
-import { Button } from '@components/Button/Button';
 import { AffiliateHero } from './components/AffiliateHero';
 import { HowItWorks } from './components/HowItWorks';
 import { CommissionTable } from './components/CommissionTable';
 import { AffiliateBenefits } from './components/AffiliateBenefits';
+import { AffiliateForm } from './components/AffiliateForm';
 import { FAQ } from '@components/FAQ/FAQ';
 import { Seo } from '@components/Seo/Seo';
 import { clientAffiliateService } from '@lib/api';
@@ -113,20 +113,20 @@ export const AffiliatePage: React.FC = () => {
         </Container>
       </Section>
 
-      {/* Signup CTA */}
-      <Section variant="contrast" padding="lg">
+      {/* Partner Application Form */}
+      <Section id="apply" variant="secondary" padding="lg">
         <Container narrow>
-          <div style={{ textAlign: 'center' }}>
-            <h2 style={{ color: 'var(--color-text-inverse)', marginBottom: 'var(--space-4)' }}>
-              Ready to start earning recurring revenue?
-            </h2>
-            <p style={{ color: 'var(--color-text-inverse-muted)', fontSize: 'var(--font-size-body-lg)', marginBottom: 'var(--space-8)' }}>
-              Apply today and receive your custom referral links and marketing asset kit within 24 hours.
+          <div style={{ textAlign: 'center', marginBottom: 'var(--space-8)' }}>
+            <span style={{ fontSize: 'var(--font-size-xs)', fontWeight: 700, color: 'var(--color-accent)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+              Partner Onboarding
+            </span>
+            <h2 style={{ marginTop: 'var(--space-2)' }}>Apply to the Partner Programme</h2>
+            <p style={{ maxWidth: '600px', marginInline: 'auto', marginTop: 'var(--space-2)' }}>
+              Complete the quick application below. Our partner success team will review and approve your custom referral dashboard within 24 hours.
             </p>
-            <Button href={affiliate.signupUrl} variant="contrast" size="lg">
-              Submit Partner Application
-            </Button>
           </div>
+
+          <AffiliateForm />
         </Container>
       </Section>
     </>

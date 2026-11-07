@@ -60,6 +60,7 @@ export const AppSchema = z.object({
   published: z.boolean(),
   featured: z.boolean().default(false),
   badge: z.string().optional(),
+  enabled: z.boolean().default(true),
 });
 
 export const AppsListSchema = z.array(AppSchema);

@@ -135,7 +135,8 @@
     ],
     "published": true,
     "featured": true,
-    "badge": "Popular"
+    "badge": "reviews",
+    "enabled": true
   },
   {
     "slug": "zenspeed",
@@ -267,26 +268,7 @@
     ],
     "published": true,
     "featured": true,
-    "badge": "Speed & SEO"
-  },
-  {
-    "slug": "draft-app",
-    "name": "Draft App (Unpublished)",
-    "tagline": "Internal test app",
-    "description": "Unpublished internal test app for testing published filtering.",
-    "icon": "/images/apps/cartboost-icon.svg",
-    "screenshots": [],
-    "features": [],
-    "pricing": [],
-    "rating": 5,
-    "ratingCount": 0,
-    "installs": "Internal",
-    "categories": [
-      "Internal"
-    ],
-    "shopifyAppStoreUrl": "https://apps.shopify.com/placeholder-draft",
-    "faq": [],
-    "published": false,
-    "featured": false
+    "badge": "Speed & SEO",
+    "enabled": false
   }
 ]

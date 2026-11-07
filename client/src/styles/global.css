@@ -24,6 +24,8 @@
 @import '../features/apps/AppDetailPage.css';
 @import '../features/affiliate/components/CommissionTable.css';
 @import '../features/schemes/components/SchemeCard.css';
+@import '../features/contact/components/ContactForm.css';
+@import '../features/affiliate/components/AffiliateForm.css';
 
 /* Typography Hierarchy */
 h1, .h1 {
